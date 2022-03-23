@@ -5,6 +5,7 @@ document.querySelector('#push').onclick=function(){
 // adding a task 
         document.querySelector('#tasks').innerHTML +=
         `<div class="task">
+            
             <span id="taskname">
                 ${document.querySelector('#newtask input').value}
             </span>
